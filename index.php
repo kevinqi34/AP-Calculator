@@ -6,9 +6,9 @@ set_boolTrue();
 
 $menu = new menu;
 $menu->initArray();
-$menu->pushtoArray("AP|IB|ACT|SATS|GPA", "ids");
-$menu->pushtoArray("AP Score Calculators|IB Score Calculators|ACT/SAT Score Calculators|SAT Subject Tests Calculators|GPA/Final Exam Tools", "items");
-$menu->pushtoArray("AP.jpg|IB.jpg|test.png|sats.png|GPA.jpg", "urlList");
+$menu->pushtoArray("AP|GPA|IB|ACT|SATS", "ids");
+$menu->pushtoArray("AP Score Calculators|GPA/Final Exam Tools|IB Score Calculators|ACT/SAT Score Calculators|SAT Subject Tests Calculators", "items");
+$menu->pushtoArray("AP.jpg|GPA.jpg|IB.jpg|test.png|sats.png", "urlList");
 
 $title = 'Score Calculators and Tools';
 $keywords = 'Advanced Placement Calculator, IB diploma Calculator, SAT/ACT Calculator, SAT subject tests Calculator';
