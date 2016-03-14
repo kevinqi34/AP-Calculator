@@ -4,7 +4,23 @@ echo <<<HEREDOC
 
 <div id="adblocktop">
 
-<script type="text/javascript">document.write("<iframe src='http://www.epicgameads.com/ads/banneriframe.php?pchsh=35b1c4e6cb75cc5915dd605d6a503a51&t=728x90&cb=" + (Math.floor(Math.random()*99999) + new Date().getTime()) + "' style='width:728px;height:90px;' frameborder='0' scrolling='no'></iframe>");</script>
+
+<div class="alignleft">
+<script type='text/javascript'>
+ amzn_assoc_ad_type = 'banner';
+ amzn_assoc_tracking_id = 'spere-20';
+ amzn_assoc_marketplace = 'amazon';
+ amzn_assoc_region = 'US';
+ amzn_assoc_placement = 'assoc_banner_placement_default';
+ amzn_assoc_linkid = 'BTHUU3IPNAMXPUXE';
+ amzn_assoc_campaigns = 'electronics';
+ amzn_assoc_p = '48';
+ amzn_assoc_banner_type = 'rotating';
+ amzn_assoc_width = '728';
+ amzn_assoc_height = '90';
+</script>
+<script src='//z-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&Operation=GetScript&ID=OneJS&WS=1'></script>
+</div>
 
 
 </div>
