@@ -11,7 +11,7 @@ $css = "../css/style.css";
 $content = '
 	<h2>US History<img src="../USAHis.jpg" alt="USHis"></h2>
 
-<h2>Version: 
+<h2>Version:
 <select id="version" onchange="changediv();">
   <option value="Pos2012">Post 2014</option>
   <option value="Pre2012">Pre 2014</option>
@@ -23,14 +23,14 @@ $content = '
 <div id="calculator" >
 
 
-		
-		
-		
-		
+
+
+
+
 	<div id="calculate" class="calculate">
-	
-	
-     
+
+
+
 			<h3>Enter your scores below</h3>
 			<p><label>Multiple Choice Score</label></p>
 				<p><input type="range" id="MC" min="0" step="1" max="80" onmouseup="slidervalue(\'MC\',\'MC2\'), calculate();" ontouchend="slidervalue(\'MC\',\'MC2\'), calculate();"/><input type="number" min="0" max="80" step="1" id="MC2" value="40" style="width: 40px;" onchange="slidervalue(\'MC2\',\'MC\'), calculate();"/>/80</p>
@@ -43,29 +43,29 @@ $content = '
 			<p>Choose a score curve</p>
 				<p><input type="radio" name="curve" id="curve1" onclick="calculate()">2006 curve<input type="radio" name="curve" id="curve2" onclick="calculate()"/>2001 curve</p>
 
-     
-  
+
+
 	</div>
 
 
 
 <div id="calculate2" class="calculate" style="display:none;">
-	
+
 	<h3>Enter your scores below</h3>
-	
+
 		<p><label>Multiple Choice Score</label></p>
 				<p><input type="range" id="MC2012" min="0" step="1" max="55" onmouseup="slidervalue(\'MC2012\',\'MC22012\'), calculate2();" ontouchend="slidervalue(\'MC2012\',\'MC22012\'), calculate2();"/><input type="number" min="0" max="55" step="1" id="MC22012" value="28" style="width: 50px;" onchange="slidervalue(\'MC22012\',\'MC2012\'), calculate2();"/>/55</p>
 			<p><label>Short Answer Score</label></p>
-				<p><input type="range" id="SRQ2012" min="0" step="1" max="12" onmouseup="slidervalue(\'SRQ2012\',\'SRQ22012\'), calculate2();" ontouchend="slidervalue(\'SRQ2012\',\'SRQ22012\'), calculate2();"/><input type="number" min="0" max="12" step="1" id="SRQ22012" value="6" style="width: 50px;" onchange="slidervalue(\'SRQ22012\',\'SRQ2012\'), calculate2();"/>/12</p>
+				<p><input type="range" id="SRQ2012" min="0" step="1" max="9" onmouseup="slidervalue(\'SRQ2012\',\'SRQ22012\'), calculate2();" ontouchend="slidervalue(\'SRQ2012\',\'SRQ22012\'), calculate2();"/><input type="number" min="0" max="9" step="1" id="SRQ22012" value="4" style="width: 50px;" onchange="slidervalue(\'SRQ22012\',\'SRQ2012\'), calculate2();"/>/9</p>
 			<p><label>DBQ Score</label></p>
 				<p><input type="range" id="DBQ2012" min="0" step="1" max="7"  onmouseup="slidervalue(\'DBQ2012\',\'DBQ22012\'), calculate2();" ontouchend="slidervalue(\'DBQ2012\',\'DBQ22012\'), calculate2();"/><input type="number" min="0" max="7" step="1" id="DBQ22012" value="4" style="width: 40px;" onchange="slidervalue(\'DBQ22012\',\'DBQ2012\'), calculate2();"/>/7</p>
 			<p><label>Long Essay Score</label></p>
-				<p><input type="range" id="LE2012" min="0" step="1" max="6"  onmouseup="slidervalue(\'LE2012\',\'LE22012\'), calculate2();" ontouchend="slidervalue(\'LE2012\',\'LE22012\'), calculate2();"/><input type="number" min="0" max="6" step="1" id="LE22012" value="3" style="width: 40px;" onchange="slidervalue(\'LE22012\',\'LE2012\'), calculate2();"/>/6</p>			
+				<p><input type="range" id="LE2012" min="0" step="1" max="6"  onmouseup="slidervalue(\'LE2012\',\'LE22012\'), calculate2();" ontouchend="slidervalue(\'LE2012\',\'LE22012\'), calculate2();"/><input type="number" min="0" max="6" step="1" id="LE22012" value="3" style="width: 40px;" onchange="slidervalue(\'LE22012\',\'LE2012\'), calculate2();"/>/6</p>
 			<p>Choose a score curve</p>
 			<p><input style="margin-left: 30px;" type="radio" name="curve" id="curve2012" onclick="calculate()" /checked>2015 curve</p>
-	
-	
-	
+
+
+
 	</div>
 
 
@@ -80,11 +80,11 @@ $content = '
 			<p><output id="score3"></output></p>
 		<p>Predicted AP Score</p>
 			<p><output id="score4"></output></p>
-	
+
 	</div>
 
 </div>
-	
+
 ';
 
 
