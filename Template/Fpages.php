@@ -167,7 +167,7 @@ function createMenu($id, $imgUrl, $element, $url) {
 
 
 
-		echo '<img src="'. $imgUrl[$i] . '" alt="' . $element[$i] .'" >';
+		echo '<img src="/images/'. $imgUrl[$i] . '" alt="' . $element[$i] .'" >';
 
 		echo  '<h3>'. $element[$i] . '</h3>';
 
@@ -194,7 +194,7 @@ function createMenu($id, $imgUrl, $element, $url) {
 
 
 
-		echo '<img src="'. $imgUrl[$i] . '" alt="' . $element[$i] .'" >';
+		echo '<img src="/images/'. $imgUrl[$i] . '" alt="' . $element[$i] .'" >';
 
 		echo  '<h3>'. $element[$i] . '</h3>';
 
@@ -281,7 +281,7 @@ function createMenuCat($catID, $num) {
 echo '<div class="content" id="' . $catID . '" style="display:none">';
 
 
-echo "<img src='./return.png' alt='return' class='return' onclick='retur" . $num . "(\"" . $catID . "\");'>";
+echo "<img src='./images/return.png' alt='return' class='return' onclick='retur" . $num . "(\"" . $catID . "\");'>";
 
 echo '<h2 style="width: 60%; margin-left: -20px;">Please Select Option</h2>';
 
