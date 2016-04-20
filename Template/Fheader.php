@@ -4,7 +4,7 @@ echo <<<HEREDOC
 <div id="navbar">
  <div id="wrapper">
 
- <a href="./"><img src="../logo.png" alt="Logo"></a>
+ <a href="./"><img src="../images/logo.png" alt="Logo"></a>
 HEREDOC;
 
 
