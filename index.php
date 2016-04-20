@@ -101,7 +101,7 @@ $IBcat->pushtoArray("Globe.png|Language.png|Government.jpg|Science.png|Math.png"
 echo '<div class="content" id="IBcat" style="display:none">';
 
 
-echo "<img src='./return.png' alt='return' class='return' onclick='retur(\"IBcat\");'>";
+echo "<img src='./images/return.png' alt='return' class='return' onclick='retur(\"IBcat\");'>";
 
 echo '<h2 style="width: 60%; margin-left: -20px;">Please Select Option</h2>';
 
