@@ -1,17 +1,17 @@
 
 
-	
+
 function calculate() {
 	var a = parseInt(document.getElementById('MC').value);
 			c = parseInt(document.getElementById('FRQ1').value);
 			e = document.getElementById('curve1').checked;
-	
+
 	var score1 = Math.round((a)*100)/100;
 			score2 = Math.round(((3/4) * c)*100)/100;
 			score3 = Math.round((score1 + score2)*100)/100;
 	var score4;
 		var percent = Math.round((score3/150)*100);
-		
+
 		if (e == true) {
 			if(score3 >= 0 && score3 <= 48) {
 				 score4 = 1;
@@ -29,18 +29,18 @@ function calculate() {
 				 score4 = 5;
 				}
 		}
-	
-	
+
+
 	document.getElementById("score1").innerHTML = score1;
 	document.getElementById("score2").innerHTML = score2;
 	document.getElementById("score3").innerHTML = score3 + "(" + percent + "%)";
 	document.getElementById("score4").innerHTML = score4;
-	
-	
+
+
 	var a = document.getElementById("score4");
-	
-	
-	
+
+
+
 	if (a.value == 1) {
 		a.style.color = "red";
 		}
@@ -56,24 +56,24 @@ function calculate() {
 	if (a.value == 5) {
 		a.style.color = "black";
 		}
-	
-	
-	choosecolors();	
+
+
+	choosecolors();
 }
-	
-	
-	
-	
+
+
+
+
 function calculate2() {
-	
-	
+
+
 var a = parseInt(document.getElementById('MC2012').value);
 		b = parseInt(document.getElementById('LFRQ').value);
 		c = parseInt(document.getElementById('SFRQ').value);
 		d = document.getElementById('curve2012').checked;
-		
-		
-	var score1 = Math.round((a)*100)/100;
+
+
+	var score1 = Math.round((a * (0.8333))*100)/100;
 			score2 = Math.round(((50/46) * (b+c))*100)/100;
 			score3 = Math.round((score1 + score2)*100)/100;
 	var score4;
@@ -103,8 +103,8 @@ var a = parseInt(document.getElementById('MC2012').value);
 	document.getElementById("score2").innerHTML = score2;
 	document.getElementById("score3").innerHTML = score3 + "(" + percent + "%)";
 	document.getElementById("score4").innerHTML = score4;
-	
-	
+
+
 	var a = document.getElementById("score4");
 
 	if (a.value == 1) {
@@ -122,9 +122,9 @@ var a = parseInt(document.getElementById('MC2012').value);
 	if (a.value == 5) {
 		a.style.color = "black";
 		}
-	
-	
-	choosecolors();	
+
+
+	choosecolors();
 
 
 
@@ -135,5 +135,3 @@ var a = parseInt(document.getElementById('MC2012').value);
 
 
 }
-	
-	
