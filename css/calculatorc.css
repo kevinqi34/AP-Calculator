@@ -533,7 +533,7 @@ div.content img.return {
 
 div.content {
 	width: 320px;
-
+	margin-left: calc(50% - 160px);
 	border: 1px solid black;
 
 
