@@ -9,10 +9,10 @@ $keywords="AP Chem, AP Chemistry, Chemistry Exam, AP Score, AP Calculator, AP te
 $js = "../js/chemistry.js";
 $css = "../css/style.css";
 $content = '
-	<h2>Chemistry<img src="../Science.png" alt="Science"></h2>
+	<h2>Chemistry<img src="../images/Science.png" alt="Science"></h2>
 
 
-<h2>Version: 
+<h2>Version:
 <select id="version" onchange="changediv();">
   <option value="Pos2012">Post 2014</option>
   <option value="Pre2012">Pre 2014</option>
@@ -25,8 +25,8 @@ $content = '
 
 
 	<div id="calculate">
-	
-	
+
+
       	<h3>Enter your scores below</h3>
 			<p><label>Multiple Choice Score</label></p>
 				<p><input type="range" id="MC" min="0" step="1" max="75" onmouseup="slidervalue(\'MC\',\'MC2\'), calculate();" ontouchend="slidervalue(\'MC\',\'MC2\'), calculate();"/><input type="number" min="0" max="75" step="1" id="MC2" value="38" style="width: 50px;" onchange="slidervalue(\'MC2\',\'MC\'), calculate();"/>/75</p>
@@ -38,9 +38,9 @@ $content = '
 	</div>
 
 	<div id="calculate2" class="calculate" style="display:none;">
-	
+
 	<h3>Enter your scores below</h3>
-	
+
 		<p><label>Multiple Choice Score (Out of 50)</label></p>
 				<p><input type="range" id="MC2012" min="0" step="1" max="50" onmouseup="slidervalue(\'MC2012\',\'MC22012\'), calculate2();" ontouchend="slidervalue(\'MC2012\',\'MC22012\'), calculate2();"/><input type="number" min="0" max="50" step="1" id="MC22012" value="25" style="width: 50px;" onchange="slidervalue(\'MC22012\',\'MC2012\'), calculate2();"/>/50</p>
 		<p><label>Long Free Response Score</label></p>
@@ -49,9 +49,9 @@ $content = '
 				<p><input type="range" id="SFRQ" min="0" step="1" max="16" onmouseup="slidervalue(\'SFRQ\',\'SFRQ2\'), calculate2();" ontouchend="slidervalue(\'SFRQ\',\'SFRQ2\'), calculate2();"/><input type="number" min="0" max="16" step="1" id="SFRQ2" value="8" style="width: 50px;" onchange="slidervalue(\'SFRQ2\',\'SFRQ\'), calculate2();"/>/16</p>
 		<p>Choose a score curve</p>
 			<p><input style="margin-left: 30px;" type="radio" name="curve" id="curve2012" onclick="calculate()" /checked>2014 curve</p>
-	
-	
-	
+
+
+
 		</div>
 
 
@@ -71,7 +71,7 @@ $content = '
 			<p><output id="score3"></output></p>
 		<p>Predicted AP Score</p>
 			<p><output id="score4"></output></p>
-	
+
 	</div>
 
 </div>
@@ -85,5 +85,3 @@ $calculator->createCalculator();
 
 
 ?>
-
-

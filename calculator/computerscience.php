@@ -8,8 +8,8 @@ $keywords="AP Comp Sci, AP Computer Science, Computer Science, AP Score, AP Calc
 $js = "../js/computerscience.js";
 $css = "../css/style.css";
 $content = '
-	<h2>Computer Science<img src="../Computer.png" alt="Computer"></h2>
-	<div id="calculator">  
+	<h2>Computer Science<img src="../images/Computer.png" alt="Computer"></h2>
+	<div id="calculator">
 
 	<div id="calculate">
 
@@ -23,10 +23,10 @@ $content = '
 			<p><label>FRQ3 Score</label></p>
 				<p><input type="range" id="FRQ3" min="0" step="1" max="9" onmouseup="slidervalue(\'FRQ3\',\'FRQ33\'), calculate();" ontouchend="slidervalue(\'FRQ3\',\'FRQ33\'), calculate();"/><input type="number" min="0" max="9" step="1" id="FRQ33" value="5" style="width: 40px;" onchange="slidervalue(\'FRQ33\',\'FRQ3\'), calculate();"/>/9</p>
 			<p><label>FRQ4 Score</label></p>
-				<p><input type="range" id="FRQ4" min="0" step="1" max="9" onmouseup="slidervalue(\'FRQ4\',\'FRQ44\'), calculate();" ontouchend="slidervalue(\'FRQ4\',\'FRQ44\'), calculate();"/><input type="number" min="0" max="9" step="1" id="FRQ44" value="5" style="width: 40px;" onchange="slidervalue(\'FRQ44\',\'FRQ4\'), calculate();"/>/9</p>			
+				<p><input type="range" id="FRQ4" min="0" step="1" max="9" onmouseup="slidervalue(\'FRQ4\',\'FRQ44\'), calculate();" ontouchend="slidervalue(\'FRQ4\',\'FRQ44\'), calculate();"/><input type="number" min="0" max="9" step="1" id="FRQ44" value="5" style="width: 40px;" onchange="slidervalue(\'FRQ44\',\'FRQ4\'), calculate();"/>/9</p>
 			<p>Choose a score curve</p>
 			<p><input type="radio" name="curve" id="curve1" onclick="calculate()" checked/>2009 curve<input type="radio" name="curve" id="curve2" onclick="calculate()"/>2004 curve</p>
-	
+
 	</div>
 	<div id="results" style="text-align: center;">
 		<p>Weighted Section I Score</p>
@@ -37,15 +37,15 @@ $content = '
 			<p><output id="score3"></output></p>
 		<p>Predicted AP Score</p>
 			<p><output id="score4"></output></p>
-	
+
 	</div>
-	 
+
 
 
 
 </div>
 
-	
+
 ';
 
 
@@ -56,6 +56,3 @@ $calculator->createCalculator();
 
 
 ?>
-
-
-

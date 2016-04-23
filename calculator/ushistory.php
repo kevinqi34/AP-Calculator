@@ -9,7 +9,7 @@ $keywords="APUSH, AP US History, U.S History, AP Score, AP Calculator, AP tests,
 $js = "../js/ushistory.js";
 $css = "../css/style.css";
 $content = '
-	<h2>US History<img src="../USAHis.jpg" alt="USHis"></h2>
+	<h2>US History<img src="../images/USAHis.jpg" alt="USHis"></h2>
 
 <h2>Version:
 <select id="version" onchange="changediv();">

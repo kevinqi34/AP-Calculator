@@ -8,13 +8,13 @@ $keywords="AP Music, AP Music Theory, Music Theory, AP Score, AP Calculator, AP 
 $js = "../js/musictheory.js";
 $css = "../css/style.css";
 $content = '
-	<h2>Music Theory<img src="../Music.png" alt="Music"></h2>
+	<h2>Music Theory<img src="../images/Music.png" alt="Music"></h2>
 	<div id="calculator">
 
 	<div id="calculate">
 
-	
-     	
+
+
 			<h3>Enter your scores below</h3>
 			<p><label>Aural Multiple Choice Score</label></p>
 				<p><input type="range" id="MC" min="0" step="1" max="42" onmouseup="slidervalue(\'MC\',\'MC2\'), calculate();" ontouchend="slidervalue(\'MC\',\'MC2\'), calculate();"/><input type="number" min="0" max="42" step="1" id="MC2" value="21" style="width: 40px;" onchange="slidervalue(\'MC2\',\'MC\'), calculate();"/>/42</p>
@@ -37,12 +37,12 @@ $content = '
 			<p><label>Sight Singing 1</label></p>
 				<p><input type="range" id="FRQ8" min="0" step="1" max="9" onmouseup="slidervalue(\'FRQ8\',\'FRQ88\'), calculate();" ontouchend="slidervalue(\'FRQ8\',\'FRQ88\'), calculate();"/><input type="number" min="0" max="9" step="1" id="FRQ88" value="5" style="width: 40px;" onchange="slidervalue(\'FRQ88\',\'FRQ8\'), calculate();"/>/9</p>
 			<p><label>Sight Singing 2</label></p>
-				<p><input type="range" id="FRQ9" min="0" step="1" max="9" onmouseup="slidervalue(\'FRQ9\',\'FRQ99\'), calculate();" ontouchend="slidervalue(\'FRQ9\',\'FRQ99\'), calculate();"/><input type="number" min="0" max="9" step="1" id="FRQ99" value="5" style="width: 40px;" onchange="slidervalue(\'FRQ99\',\'FRQ9\'), calculate();"/>/9</p>			
+				<p><input type="range" id="FRQ9" min="0" step="1" max="9" onmouseup="slidervalue(\'FRQ9\',\'FRQ99\'), calculate();" ontouchend="slidervalue(\'FRQ9\',\'FRQ99\'), calculate();"/><input type="number" min="0" max="9" step="1" id="FRQ99" value="5" style="width: 40px;" onchange="slidervalue(\'FRQ99\',\'FRQ9\'), calculate();"/>/9</p>
 			<p>Choose a score curve</p>
 				<p><input type="radio" name="curve" id="curve1" onclick="calculate()" checked/>2008 curve<input type="radio" name="curve" id="curve2" onclick="calculate()"/>2003 curve</p>
 
 
-								
+
 	</div>
 	<div id="results" style="text-align: center;">
 		<p>Weighted Section I Score</p>
@@ -59,7 +59,7 @@ $content = '
 			<p><output id="score6"></output></p>
 	</div>
 </div>
-	
+
 ';
 
 
@@ -70,4 +70,3 @@ $calculator->createCalculator();
 
 
 ?>
-

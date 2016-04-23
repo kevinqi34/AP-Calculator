@@ -8,13 +8,13 @@ $keywords="AP Micro, AP Microeconomics, Microeconomics, AP Score, AP Calculator,
 $js = "../js/microeconomics.js";
 $css = "../css/style.css";
 $content = '
-			<h2>Microeconomics<img src="../Money.png" alt="Money"></h2>
-		
+			<h2>Microeconomics<img src="../images/Money.png" alt="Money"></h2>
 
-		
+
+
 
 	<div id="calculate">
-	 
+
    		<h3>Enter your scores below</h3>
 			<p><label>Multiple Choice Score</label></p>
 				<p><input type="range" id="MC" min="0" step="1" max="60" ontouchend ="slidervalue(\'MC\',\'MC2\'), calculate();" onmouseup="slidervalue(\'MC\',\'MC2\'), calculate();"/><input type="number" min="0" max="60" step="1" id="MC2" value="30" style="width: 50px;" onchange="slidervalue(\'MC2\',\'MC\'), calculate();"/>/60</p>
@@ -26,8 +26,8 @@ $content = '
 				<p><input type="range" id="SRQ2" min="0" step="1" max="100" ontouchend="slidervalue(\'SRQ2\',\'SRQ22\'), calculate();" onmouseup="slidervalue(\'SRQ2\',\'SRQ22\'), calculate();"/><input type="number" min="0" max="100" step="1" id="SRQ22" value="50" style="width: 50px;" onchange="slidervalue(\'SRQ22\',\'SRQ2\'), calculate();"/>/100</p>
 			<p>Choose a score curve</p>
 				<p><input type="radio" name="curve" id="curve1" onclick="calculate();" checked/>2005 curve<input type="radio" name="curve" id="curve2" onclick="calculate()"/>2000 curve</p>
- 
-							
+
+
 	</div>
 	<div id="results" style="text-align: center">
 		<p>Weighted Section I Score</p>
@@ -38,15 +38,15 @@ $content = '
 			<p><output id="score3"></output></p>
 		<p>Predicted AP Score</p>
 			<p><output id="score4"></output></p>
-	
+
 	</div>
-	
+
 
 
 
 </div>
 
-	
+
 ';
 
 
@@ -57,4 +57,3 @@ $calculator->createCalculator();
 
 
 ?>
-
