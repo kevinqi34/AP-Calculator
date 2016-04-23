@@ -533,6 +533,7 @@ div.content img.return {
 
 div.content {
 	width: 100%;
+	border: 1px solid black;
 
 
 
@@ -543,11 +544,9 @@ div.content {
 
 
 div.content div.category {
-	width: 300px;
-	margin-left: calc(50% - 150px);
-
-
-
+	width: 90%;
+	margin-left: 5%;
+	left: 0px;
 
 
 	}
