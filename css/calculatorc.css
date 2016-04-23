@@ -532,7 +532,8 @@ div.content img.return {
 	}
 
 div.content {
-	width: 100%;
+	width: 300px;
+	
 	border: 1px solid black;
 
 
