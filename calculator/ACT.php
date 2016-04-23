@@ -10,15 +10,15 @@ $js = "../js/ACT.js";
 $css = "../css/styletest.css";
 $content = '
 
-<h2>ACT<img src="../test.png" alt="ACT"></h2>
-		
-<div id="calculator">		
-	
-		
-		
+<h2>ACT<img src="../images/test.png" alt="ACT"></h2>
+
+<div id="calculator">
+
+
+
 	<div id="calculate">
-	
-	
+
+
 			<h3>Enter your scores below</h3>
 			<p><label>English</label></p>
 				<p><input type="range" id="MC" min="0" step="1" max="75" onmouseup="slidervalue(\'MC\',\'MC2\'), calculate();" ontouchend="slidervalue(\'MC\',\'MC2\'), calculate();"/><input type="number" min="0" max="75" step="1" id="MC2" value="38" style="width: 40px;" onchange="slidervalue(\'MC2\',\'MC\'), calculate();"/>/75</p>
@@ -30,11 +30,11 @@ $content = '
 				<p><input type="range" id="FRQ2" min="0" step="1" max="40"  onmouseup="slidervalue(\'FRQ2\',\'FRQ22\'), calculate();" ontouchend="slidervalue(\'FRQ2\',\'FRQ22\'), calculate();"/><input type="number" min="0" max="40" step="1" id="FRQ22" value="20" style="width: 40px;" onchange="slidervalue(\'FRQ22\',\'FRQ2\'), calculate();"/>/40</p>
 			<p>Choose a score curve</p>
 				<p><input type="radio" name="curve" id="curve1" onclick="calculate()" checked/>June 2015 curve<input type="radio" name="curve" id="curve2" onclick="calculate()"/>December 2012 curve</p>
-  
-	
-			
- 
-						
+
+
+
+
+
 	</div>
 	<div id="results" style="text-align: center;">
 		<p>English Score</p>
@@ -45,9 +45,9 @@ $content = '
 			<p><output id="score3"></output></p>
 		<p>Science Score</p>
 			<p><output id="score4"></output></p>
-		<p>Composite Score</p>	
+		<p>Composite Score</p>
 			<p><output id="score5"></output></p>
-	
+
 	</div>
 
 </div>
@@ -63,6 +63,3 @@ $calculator->createCalculator();
 
 
 ?>
-
-
-

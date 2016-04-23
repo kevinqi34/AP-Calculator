@@ -9,20 +9,20 @@ $keywords="AP Calc, AP Calculus BC, Calculus BC, AP Score, AP Calculator, AP tes
 $js = "../js/calculusbc.js";
 $css = "../css/style.css";
 $content = '
-	<h2>Calculus BC <img src="../calc.png" alt="calc"></h2>
+	<h2>Calculus BC <img src="../images/calc.png" alt="calc"></h2>
 
 <div id="calculator">
 
 
 	<div id="calculate">
-	
-			
-     
+
+
+
 			<h3>Enter your scores below</h3>
 			<p><label>Multiple Choice (no Calculator) Score</label></p>
 				<p><input type="range" id="MC" min="0" step="1" max="28" onmouseup="slidervalue(\'MC\',\'MC2\'), calculate();" ontouchend="slidervalue(\'MC\',\'MC2\'), calculate();"/><input type="number" min="0" max="28" step="1" id="MC2" value="14" style="width: 40px;" onchange="slidervalue(\'MC2\',\'MC\'), calculate();"/>/28</p>
 			<p><label>Multiple Choice (with Calculator) Score</label></p>
-				<p><input type="range" id="MC3" min="0" step="1" max="17" onmouseup="slidervalue(\'MC3\',\'MC4\'), calculate();"  ontouchend="slidervalue(\'MC3\',\'MC4\'), calculate();"/><input type="number" min="0" max="17" step="1" id="MC4" value="9" style="width: 40px;" onchange="slidervalue(\'MC4\',\'MC3\'), calculate();"/>/17</p>			
+				<p><input type="range" id="MC3" min="0" step="1" max="17" onmouseup="slidervalue(\'MC3\',\'MC4\'), calculate();"  ontouchend="slidervalue(\'MC3\',\'MC4\'), calculate();"/><input type="number" min="0" max="17" step="1" id="MC4" value="9" style="width: 40px;" onchange="slidervalue(\'MC4\',\'MC3\'), calculate();"/>/17</p>
 			<p><label>FRQ1 Score</label></p>
 				<p><input type="range" id="FRQ1" min="0" step="1" max="9" onmouseup="slidervalue(\'FRQ1\',\'FRQ11\'), calculate();" ontouchend="slidervalue(\'FRQ1\',\'FRQ11\'), calculate();"/><input type="number" min="0" max="9" step="1" id="FRQ11" value="5" style="width: 40px;" onchange="slidervalue(\'FRQ11\',\'FRQ1\'), calculate();"/>/9</p>
 			<p><label>FRQ2 Score</label></p>
@@ -30,23 +30,23 @@ $content = '
 			<p><label>FRQ3 Score</label></p>
 				<p><input type="range" id="FRQ3" min="0" step="1" max="9" onmouseup="slidervalue(\'FRQ3\',\'FRQ33\'), calculate();" ontouchend="slidervalue(\'FRQ3\',\'FRQ33\'), calculate();"/><input type="number" min="0" max="9" step="1" id="FRQ33" value="5" style="width: 40px;" onchange="slidervalue(\'FRQ33\',\'FRQ3\'), calculate();"/>/9</p>
 			<p><label>FRQ4 Score</label></p>
-				<p><input type="range" id="FRQ4" min="0" step="1" max="9" onmouseup="slidervalue(\'FRQ4\',\'FRQ44\'), calculate();" ontouchend="slidervalue(\'FRQ4\',\'FRQ44\'), calculate();"/><input type="number" min="0" max="9" step="1" id="FRQ44" value="5" style="width: 40px;" onchange="slidervalue(\'FRQ44\',\'FRQ4\'), calculate();"/>/9</p>			
+				<p><input type="range" id="FRQ4" min="0" step="1" max="9" onmouseup="slidervalue(\'FRQ4\',\'FRQ44\'), calculate();" ontouchend="slidervalue(\'FRQ4\',\'FRQ44\'), calculate();"/><input type="number" min="0" max="9" step="1" id="FRQ44" value="5" style="width: 40px;" onchange="slidervalue(\'FRQ44\',\'FRQ4\'), calculate();"/>/9</p>
 			<p><label>FRQ5 Score</label></p>
 				<p><input type="range" id="FRQ5" min="0" step="1" max="9" onmouseup="slidervalue(\'FRQ5\',\'FRQ55\'), calculate();" ontouchend="slidervalue(\'FRQ5\',\'FRQ55\'), calculate();"/><input type="number" min="0" max="9" step="1" id="FRQ55" value="5" style="width: 40px;" onchange="slidervalue(\'FRQ55\',\'FRQ5\'), calculate();"/>/9</p>
 			<p><label>FRQ6 Score</label></p>
 				<p><input type="range" id="FRQ6" min="0" step="1" max="9"  onmouseup="slidervalue(\'FRQ6\',\'FRQ66\'), calculate();" ontouchend="slidervalue(\'FRQ6\',\'FRQ66\'), calculate();"/><input type="number" min="0" max="9" step="1" id="FRQ66" value="5" style="width: 40px;" onchange="slidervalue(\'FRQ66\',\'FRQ6\'), calculate();"/>/9</p>
 			<p>Choose a score curve</p>
 			<p><input type="radio" name="curve" id="curve1" onclick="calculate()" checked/>2008 curve<input type="radio" name="curve" id="curve2" onclick="calculate()"/>2003 curve</p>
-	
-     
-         
-	
-			
-					
 
-	</div>				
-			
-						
+
+
+
+
+
+
+	</div>
+
+
 
 	<div id="results" style="text-align: center;">
 		<p>Weighted Section I Score</p>
@@ -57,12 +57,12 @@ $content = '
 			<p><output id="score3"></output></p>
 		<p>Predicted AP Score</p>
 			<p><output id="score4"></output></p>
-	
+
 	</div>
 
-	
+
 </div>
-	
+
 
 ';
 
@@ -74,8 +74,3 @@ $calculator->createCalculator();
 
 
 ?>
-
-
-
-
-
