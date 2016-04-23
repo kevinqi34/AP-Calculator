@@ -546,6 +546,8 @@ div.content {
 
 div.content div.category {
 	width: 100%;
+	left: 0;
+	margin-left: 0;
 
 
 
