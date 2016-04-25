@@ -41,7 +41,7 @@ $content = '
 
 	<h3>Enter your scores below</h3>
 
-		<p><label>Multiple Choice Score (Out of 50)</label></p>
+		<p><label>Multiple Choice Score</label></p>
 				<p><input type="range" id="MC2012" min="0" step="1" max="60" onmouseup="slidervalue(\'MC2012\',\'MC22012\'), calculate2();" ontouchend="slidervalue(\'MC2012\',\'MC22012\'), calculate2();"/><input type="number" min="0" max="60" step="1" id="MC22012" value="25" style="width: 50px;" onchange="slidervalue(\'MC22012\',\'MC2012\'), calculate2();"/>/60</p>
 		<p><label>Long Free Response Score</label></p>
 				<p><input type="range" id="LFRQ" min="0" step="1" max="30" onmouseup="slidervalue(\'LFRQ\',\'LFRQ2\'), calculate2();" ontouchend="slidervalue(\'LFRQ\',\'LFRQ2\'), calculate2();"/><input type="number" min="0" max="30" step="1" id="LFRQ2" value="15" style="width: 50px;" onchange="slidervalue(\'LFRQ2\',\'LFRQ\'), calculate2();"/>/30</p>
