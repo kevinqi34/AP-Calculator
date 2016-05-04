@@ -213,7 +213,7 @@ height: auto;
 	margin-left: -80px;
 	left: 50%;
 	height: 610px;
-
+	border: 1px solid black;
 	margin-top: 50px;
 
 
@@ -231,6 +231,7 @@ height: auto;
 	margin-left: 100px;
 	margin-top: 20px;
 	display: block;
+	border: 1px solid black;
 
 
 
@@ -515,7 +516,8 @@ div.content img.return {
 	margin-left: 0;
 	left: 50%;
 	margin-left: -150px;
-	display: none;
+	display: block;
+	border: 1px solid black;
 
 
 
