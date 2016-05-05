@@ -93,7 +93,7 @@ var a = parseInt(document.getElementById('MC2012').value);
 
 
 
-	var score1 = Math.round(((a - 6) * 1.0612 + b * 2.887)*100)/100;
+	var score1 = Math.round(((a - 6) * 1.0612 + (b - 3) * 2.887)*100)/100;
 			score2 = Math.round((c * 4.6427 + 3.25 * d)*100)/100;
 			score3 = Math.round((score1 + score2)*100)/100;
 	var score4;

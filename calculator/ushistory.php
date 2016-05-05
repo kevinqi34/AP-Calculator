@@ -56,7 +56,7 @@ $content = '
 		<p><label>Multiple Choice Score</label></p>
 				<p><input type="range" id="MC2012" min="0" step="1" max="55" onmouseup="slidervalue(\'MC2012\',\'MC22012\'), calculate2();" ontouchend="slidervalue(\'MC2012\',\'MC22012\'), calculate2();"/><input type="number" min="0" max="55" step="1" id="MC22012" value="28" style="width: 50px;" onchange="slidervalue(\'MC22012\',\'MC2012\'), calculate2();"/>/55</p>
 			<p><label>Short Answer Score</label></p>
-				<p><input type="range" id="SRQ2012" min="0" step="1" max="9" onmouseup="slidervalue(\'SRQ2012\',\'SRQ22012\'), calculate2();" ontouchend="slidervalue(\'SRQ2012\',\'SRQ22012\'), calculate2();"/><input type="number" min="0" max="9" step="1" id="SRQ22012" value="4" style="width: 50px;" onchange="slidervalue(\'SRQ22012\',\'SRQ2012\'), calculate2();"/>/9</p>
+				<p><input type="range" id="SRQ2012" min="0" step="1" max="12" onmouseup="slidervalue(\'SRQ2012\',\'SRQ22012\'), calculate2();" ontouchend="slidervalue(\'SRQ2012\',\'SRQ22012\'), calculate2();"/><input type="number" min="0" max="12" step="1" id="SRQ22012" value="4" style="width: 50px;" onchange="slidervalue(\'SRQ22012\',\'SRQ2012\'), calculate2();"/>/12</p>
 			<p><label>DBQ Score</label></p>
 				<p><input type="range" id="DBQ2012" min="0" step="1" max="7"  onmouseup="slidervalue(\'DBQ2012\',\'DBQ22012\'), calculate2();" ontouchend="slidervalue(\'DBQ2012\',\'DBQ22012\'), calculate2();"/><input type="number" min="0" max="7" step="1" id="DBQ22012" value="4" style="width: 40px;" onchange="slidervalue(\'DBQ22012\',\'DBQ2012\'), calculate2();"/>/7</p>
 			<p><label>Long Essay Score</label></p>
