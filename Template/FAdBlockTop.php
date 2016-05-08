@@ -13,7 +13,6 @@ var ad_idzone = "2023586",
 <noscript><a href="http://main.exoclick.com/img-click.php?idzone=2023586" target="_blank"><img src="https://syndication.exoclick.com/ads-iframe-display.php?idzone=2023586&output=img&type=728x90" width="728" height="90"></a></noscript>
 
 
-
 </div>
 
 HEREDOC;
