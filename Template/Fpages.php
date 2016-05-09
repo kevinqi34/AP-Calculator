@@ -100,6 +100,9 @@ class menu extends wiki {
 
 
 public $urlList, $items, $ids, $url;
+public $affiliate_code;
+
+
 
 //public $title, $keywords;
 
@@ -113,6 +116,21 @@ function menuinit($title, $keywords) {
 
 
 	}
+
+
+
+function setAffiliate($affiliate) {
+	$this->affiliate_code = $affiliate;
+
+
+}
+
+function insertAffiliateAd() {
+	include('./Template/FAdBlockLeft.php');
+
+
+
+}
 
 
 function initArray() {

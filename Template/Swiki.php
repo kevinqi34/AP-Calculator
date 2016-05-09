@@ -90,6 +90,7 @@ echo '</html>';
 class calculator extends wiki {
 
 private $js, $css, $bool = 0;
+private $affiliate_code;
 
 
 
@@ -102,6 +103,13 @@ function setCalculator($title, $keywords, $content, $js, $css) {
 	$this->css = $css;
 
 
+
+
+}
+
+
+function setAffiliate($affiliate) {
+	$this->affiliate_code = $affiliate;
 
 
 }
