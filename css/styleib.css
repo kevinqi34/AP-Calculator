@@ -586,6 +586,7 @@ output {
 	left: 50%;
 	margin-left: -150px;
 	display: block;
+	overflow: hidden;
 
 
 

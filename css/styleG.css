@@ -212,7 +212,6 @@ height: auto;
 		margin-left: -80px;
 		left: 50%;
 		height: 610px;
-
 		margin-top: 50px;
 
 
@@ -601,6 +600,7 @@ output {
 	left: 50%;
 	margin-left: -150px;
 	display: block;
+	overflow: hidden;
 
 
 
