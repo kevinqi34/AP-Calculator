@@ -514,7 +514,8 @@ div.content img.return {
 	margin-left: 0;
 	left: 50%;
 	margin-left: -150px;
-	display: none;
+	display: block;
+	border: 1px solid black;
 
 
 
