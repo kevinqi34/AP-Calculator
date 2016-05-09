@@ -10,6 +10,7 @@ $title = "IB Mathematics HL/SL";
 $keywords="IB Mathematics, Mathematics, Mathematics SL, Mathematics HL, IB Mathematics, IB score, IB Calculator, IB tests, college prep, IB courses, IB Exam, IB prep";
 $js = "../js/ibmathematics.js";
 $css = "../css/styleib.css";
+$affiliate = '<iframe style="width:120px;height:240px;margin-left:calc(50% - 60px);margin-top:150px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ac&ref=tf_til&ad_type=product_link&tracking_id=spere-10-20&marketplace=amazon&region=US&placement=1438003927&asins=1438003927&linkId=UOMUCM4R3E63UIPO&show_border=true&link_opens_in_new_window=true"></iframe>';
 $content = '
 <h2>Mathematics HL/SL<img src="../images/Math.png" alt="Math"></h2>
 
@@ -80,7 +81,7 @@ $content = '
 
 
 $calculator->setBool();
-
+$calculator->setAffiliate($affiliate);
 $calculator->setCalculator($title, $keywords, $content, $js, $css);
 $calculator->createCalculator();
 

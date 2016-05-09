@@ -8,6 +8,7 @@ $title = "SAT Spanish";
 $keywords="SAT Spanish, sat spanish, SAT spanish, Spanish, SAT Subject Tests, Subject tests, SAT tests, SAT testing, subject testing";
 $js = "../js/SATspanish.js";
 $css = "../css/style.css";
+$affiliate = '<iframe style="width:120px;height:240px;margin-left:calc(50% - 60px);margin-top:150px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ac&ref=tf_til&ad_type=product_link&tracking_id=spere-10-20&marketplace=amazon&region=US&placement=1438075618&asins=1438075618&linkId=3IV4EA5YYVF4JR66&show_border=true&link_opens_in_new_window=true"></iframe>';
 $content = '
 	<h2>Spanish<img src="../images/Spain.jpeg" alt="Spain" ></h2>
 <div id="calculator">
@@ -39,7 +40,7 @@ $content = '
 
 
 
-
+$calculator->setAffiliate($affiliate);
 $calculator->setCalculator($title, $keywords, $content, $js, $css);
 $calculator->createCalculator();
 

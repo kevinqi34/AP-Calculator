@@ -10,6 +10,7 @@ $title = "IB Computer Science HL/SL";
 $keywords="IB Computer Science, Computer Science, Computer Science SL, Computer Science HL, IB Computer Science, IB score, IB Calculator, IB tests, college prep, IB courses, IB Exam, IB prep";
 $js = "../js/ibcomputers.js";
 $css = "../css/styleib.css";
+$affiliate = '<iframe style="width:120px;height:240px;margin-left:calc(50% - 60px);margin-top:150px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ac&ref=tf_til&ad_type=product_link&tracking_id=spere-10-20&marketplace=amazon&region=US&placement=1876659041&asins=1876659041&linkId=5TY4HU3XMCPSUCCN&show_border=true&link_opens_in_new_window=true"></iframe>';
 $content = '
 <h2>Computer Science HL/SL<img src="../images/Computer.png" alt="Computer"></h2>
 
@@ -77,7 +78,7 @@ $content = '
 ';
 
 
-
+$calculator->setAffiliate($affiliate);
 $calculator->setBool(true);
 $calculator->setCalculator($title, $keywords, $content, $js, $css);
 $calculator->createCalculator();

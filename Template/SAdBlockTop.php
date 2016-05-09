@@ -5,6 +5,9 @@ echo <<<HEREDOC
 <div id="adblocktop">
 
 
+<a href="http://www.tkqlhce.com/click-8066581-10941829-1391449830000" target="_top">
+<img src="http://www.ftjcfx.com/image-8066581-10941829-1391449830000" width="728" height="90" alt="" border="0"/></a>
+
 <!-- Mobicow.com Ad Code Start : Do Not Modify -->
 <script>
     var mc_s1 = document.createElement("script");

@@ -10,6 +10,7 @@ $title = "IB English A1 HL/SL";
 $keywords="IB English, English A1, English A1 SL, English A1 HL, IB English A1, IB score, IB Calculator, IB tests, college prep, IB courses, IB Exam, IB prep";
 $js = "../js/ibenglisha1.js";
 $css = "../css/styleib.css";
+$affiliate = '<iframe style="width:120px;height:240px;margin-left:calc(50% - 60px);margin-top:150px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ac&ref=tf_til&ad_type=product_link&tracking_id=spere-10-20&marketplace=amazon&region=US&placement=0198390084&asins=0198390084&linkId=HWFFLEEF32XPV6VG&show_border=true&link_opens_in_new_window=true"></iframe>';
 $content = '
 <h2>English A1 HL/SL<img src="../images/English.png" alt="English"></h2>
 
@@ -54,7 +55,7 @@ $content = '
 
 
 
-
+$calculator->setAffiliate($affiliate);
 $calculator->setCalculator($title, $keywords, $content, $js, $css);
 $calculator->createCalculator();
 

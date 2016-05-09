@@ -10,6 +10,7 @@ $title = "IB Biology HL";
 $keywords="IB Biology, Biology, Biology SL, Biology HL, IB score, IB Calculator, IB tests, college prep, IB courses, IB Exam, IB prep";
 $js = "../js/ibbiology.js";
 $css = "../css/styleib.css";
+$affiliate = '<iframe style="width:120px;height:240px;margin-left:calc(50% - 60px);margin-top:150px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ac&ref=tf_til&ad_type=product_link&tracking_id=spere-10-20&marketplace=amazon&region=US&placement=1438003390&asins=1438003390&linkId=AMLFX6Y2UNUAJQ53&show_border=true&link_opens_in_new_window=true"></iframe>';
 $content = '
 <h2>Biology HL<img src="../images/DNA.jpg" alt="DNA"></h2>
 
@@ -62,7 +63,7 @@ $content = '
 
 
 
-
+$calculator->setAffiliate($affiliate);
 $calculator->setCalculator($title, $keywords, $content, $js, $css);
 $calculator->createCalculator();
 

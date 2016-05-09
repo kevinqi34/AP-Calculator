@@ -10,6 +10,7 @@ $title = "IB Psychology HL/SL";
 $keywords="IB Psychology, Psychology, Psychology SL, Psychology HL, IB score, IB Calculator, IB tests, college prep, IB courses, IB Exam, IB prep";
 $js = "../js/ibpsychology.js";
 $css = "../css/styleib.css";
+$affiliate = '<iframe style="width:120px;height:240px;margin-left:calc(50% - 60px);margin-top:150px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ac&ref=tf_til&ad_type=product_link&tracking_id=spere-10-20&marketplace=amazon&region=US&placement=0198389965&asins=0198389965&linkId=RXE2SYMQL6OXMJDP&show_border=true&link_opens_in_new_window=true"></iframe>';
 $content = '
 <h2>Psychology HL/SL<img src="../images/Brain.png" alt="Brain"></h2>
 
@@ -79,7 +80,7 @@ $content = '
 ';
 
 
-
+$calculator->setAffiliate($affiliate);
 $calculator->setBool();
 $calculator->setCalculator($title, $keywords, $content, $js, $css);
 $calculator->createCalculator();

@@ -8,6 +8,7 @@ $title = "ACT";
 $keywords="ACT, ACT Score Calculator, act, American College Test, ACT Math, ACT English, ACT Science, college prep, ACT Reading, Standardized Testing";
 $js = "../js/ACT.js";
 $css = "../css/styletest.css";
+$affiliate = '<iframe style="width:120px;height:240px;margin-left:calc(50% - 60px);margin-top:150px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ac&ref=tf_til&ad_type=product_link&tracking_id=spere-10-20&marketplace=amazon&region=US&placement=1101881984&asins=1101881984&linkId=ISZCOJHZMQPRWJYZ&show_border=true&link_opens_in_new_window=true"></iframe>';
 $content = '
 
 <h2>ACT<img src="../images/test.png" alt="ACT"></h2>
@@ -57,7 +58,7 @@ $content = '
 
 
 
-
+$calculator->setAffiliate($affiliate);
 $calculator->setCalculator($title, $keywords, $content, $js, $css);
 $calculator->createCalculator();
 

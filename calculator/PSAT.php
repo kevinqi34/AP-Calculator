@@ -7,6 +7,7 @@ $title = "PSAT";
 $keywords="PSAT, psat, National Merit Qualification Test, PSAT Math, PSAT Writing, PSAT Reading, college prep, SAT Essay, Standardized Testing";
 $js = "../js/PSAT.js";
 $css = "../css/styletest.css";
+$affiliate = '<iframe style="width:120px;height:240px;margin-left:calc(50% - 60px);margin-top:150px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ac&ref=tf_til&ad_type=product_link&tracking_id=spere-10-20&marketplace=amazon&region=US&placement=143800768X&asins=143800768X&linkId=FK45HKBMQHECWHIQ&show_border=true&link_opens_in_new_window=true"></iframe>';
 $content = '
 	<h2>PSAT<img src="../images/test.png" alt="SAT"></h2>
 
@@ -82,7 +83,7 @@ $content = '
 
 
 
-
+$calculator->setAffiliate($affiliate);
 $calculator->setCalculator($title, $keywords, $content, $js, $css);
 $calculator->createCalculator();
 
