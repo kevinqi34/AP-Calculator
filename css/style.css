@@ -26,7 +26,7 @@ a, img {
 	height: 100px;
 	background-color: #F4F4F4;
 	position: relative;
-	margin-top: 48px;
+
 
 		}
 
@@ -528,6 +528,11 @@ output {
 
 @media screen and (max-width : 1350px){
 
+	#navbar {
+			margin-top: 48px;
+
+
+	}
 
 	#navbar #wrapper {
 		width: 100%;
