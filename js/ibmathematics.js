@@ -5,17 +5,17 @@ function calculate() {
 			d = parseInt(document.getElementById('IS').value);
 			e = document.getElementById('hl').checked;
 			f = document.getElementById('curve1').checked;
-			
-			
-			
-			
+
+
+
+
 		//	alert(e);
 		//	alert(f);
 		//	alert(g);
-			
+
 	var score1 = Math.round(((a + b) * (1/4) + 0.5 * d + (1/3) * c )*100)/100;
 			score2;
-	var percent = Math.round((score1/100)*100);	
+	var percent = Math.round((score1/100)*100);
 		//alert(score1);
 
 		if (f == true && e == true) {
@@ -40,22 +40,22 @@ function calculate() {
 			else if(score1 > 76 && score1 <= 100) {
 				 score2 = 7;
 				}
-						
+
 		}
 
 
-	
+
 		//alert(score2);
-		
-		
+
+
 	document.getElementById("score1").innerHTML = score1 + "(" + percent + "%)";
 	document.getElementById("score2").innerHTML = score2;
 
 
 var a = document.getElementById("score2");
-	
-	
-	
+
+
+
 	if (a.value == 1) {
 		a.style.color = "red";
 		}
@@ -64,11 +64,11 @@ var a = document.getElementById("score2");
 		}
 	if (a.value == 3) {
 		a.style.color = "#33CC00";
-		}	
-		
+		}
+
 	if (a.value == 4) {
 		a.style.color = "lightgreen";
-		}	
+		}
 	if (a.value == 5) {
 		a.style.color = "forestgreen";
 		}
@@ -78,7 +78,7 @@ var a = document.getElementById("score2");
 	if (a.value == 7) {
 		a.style.color = "black";
 		}
-		
+
 
 
 
@@ -97,15 +97,15 @@ function calculate2() {
 			c = parseInt(document.getElementById('ISL').value);
 			d = document.getElementById('sl').checked;
 			e = document.getElementById('curve1sl').checked;
-			
-			
+
+
 	//		alert(e);
 	//	alert(d);
 		//	alert(g);
-			
-	var score1 = Math.round(((a + b) * (4/9) + c * (1/2))*100)/100;
+
+	var score1 = Math.round(((a + b) * (4/9) + c * (1))*100)/100;
 			score2;
-	var percent = Math.round((score1/100)*100);	
+	var percent = Math.round((score1/100)*100);
 		//alert(score1);
 
 		if (d == true && e == true) {
@@ -130,25 +130,25 @@ function calculate2() {
 			else if(score1 > 82 && score1 <= 100) {
 				 score2 = 7;
 				}
-						
+
 		}
 
 
 
 //alert(score2);
 
-	
-		
-		
-		
+
+
+
+
 	document.getElementById("score1").innerHTML = score1 + "(" + percent + "%)";
 	document.getElementById("score2").innerHTML = score2;
 
 
 var a = document.getElementById("score2");
-	
-	
-	
+
+
+
 	if (a.value == 1) {
 		a.style.color = "red";
 		}
@@ -157,11 +157,11 @@ var a = document.getElementById("score2");
 		}
 	if (a.value == 3) {
 		a.style.color = "#33CC00";
-		}	
-		
+		}
+
 	if (a.value == 4) {
 		a.style.color = "lightgreen";
-		}	
+		}
 	if (a.value == 5) {
 		a.style.color = "forestgreen";
 		}
@@ -171,7 +171,7 @@ var a = document.getElementById("score2");
 	if (a.value == 7) {
 		a.style.color = "black";
 		}
-		
+
 
 
 
@@ -181,4 +181,3 @@ var a = document.getElementById("score2");
 
 
 }
-

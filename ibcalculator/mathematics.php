@@ -55,7 +55,7 @@ $content = '
 			<p><label>Paper 2 Score</label></p>
 				<p><input type="range" id="P2SL" min="0" step="1" max="90" onmouseup="slidervalue(\'P2SL\',\'P22SL\'), calculate2();" ontouchend="slidervalue(\'P2SL\',\'P22SL\'), calculate2();"/><input type="number" min="0" max="90" step="1" id="P22SL" value="45" style="width: 40px;" onchange="slidervalue(\'P22SL\',\'P2SL\'), calculate2();"/>/90</p>
 			<p><label>Internal Score</label></p>
-				<p><input type="range" id="ISL" min="0" step="1" max="40"onmouseup="slidervalue(\'ISL\',\'ISL2\'), calculate2();" ontouchend="slidervalue(\'ISL\',\'ISL2\'), calculate2();"/><input type="number" min="0" max="40" step="1" id="ISL2" value="20" style="width: 40px;" onchange="slidervalue(\'ISL2\',\'ISL\'), calculate2();"/>/40</p>
+				<p><input type="range" id="ISL" min="0" step="1" max="20"onmouseup="slidervalue(\'ISL\',\'ISL2\'), calculate2();" ontouchend="slidervalue(\'ISL\',\'ISL2\'), calculate2();"/><input type="number" min="0" max="20" step="1" id="ISL2" value="10" style="width: 40px;" onchange="slidervalue(\'ISL2\',\'ISL\'), calculate2();"/>/20</p>
 
 			<p>Choose a score curve</p>
 				<p><input style="margin-left: 30px;" type="radio" name="curvesl" id="curve1sl" onclick="calculate2()" /checked>2008 curve</p>
