@@ -4,18 +4,6 @@ echo <<<HEREDOC
 
 <div id="adblocktop">
 
-<!-- Air push code -->
-
-<script type="text/javascript">
-       this.airpushConfig={
-                "siteid": 309374,
-                "testmode": 0,
-                "banner360": 1,
-                "placementid": 0
-
-         };
-</script>
-<script type="text/javascript"  src="//ab.airpush.com/apportal/v2/cdn/airpush.js" ></script>
 
 
 
